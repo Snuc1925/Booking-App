@@ -1,0 +1,7 @@
+package com.hust.booking.exception;
+
+public class UserNotInGroupException extends RuntimeException {
+    public UserNotInGroupException(String message) {
+        super(message);
+    }
+}
